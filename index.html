@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang='pt-br'>
+    <head> <meta charset='utf-8'>
+         <title> Que time você torce ?</title>
+    </head> 
+<body>
+
+<script language='Javascript'>
+	var time=window.prompt('Qual é o seu time do Coração ?\n1. Corinthians\n2. Palmeiras\n3. Santos\n4. São Paulo\n5. Portuguesa'); 
+	switch(time)
+	{
+		case'1':{alert('O Corinthias é o melhor, não é?');
+		         document.bgColor='#4F4F4F'; 
+		         document.write('<center><h3> Corinthians !!!</h3>'); 
+				 document.write('<h2>O Corinthians ganhou o 1º titulo da Fifa</h2>');
+		         document.write('<a href="cor_tit.html"> <img src="img/co.gif"> </center>');
+				 break;}
+		case'2':{alert('O Palmeiras não tem mundial');
+		         document.bgColor='#00FF00'; 
+		         document.write('<center><h3>Palmeiras !!!</h3>'); 
+				 document.write('<h2>O Palmeiras é o maior campeão do Campeonato Brasileiro: são nove títulos</h2>');
+		         document.write('<a href="pal_tit.html"> <img src="img/pa.gif"></center>'); 
+				 break;}
+		case'3':{alert('O Santos só foi bom em tempos passados e quem vive no passado é museu');
+				 document.bgColor='#B4CDCD'; 			
+		         document.write('<center><h3>Santos !!!</h3>'); 
+				 document.write('<h2>O Santos foi fundado exatamente no mesmo dia do naufrágio do Titanic</h2>');
+		         document.write('<a href="san_tit.html"> <img src="img/sa.gif"></center>');
+				 break;}
+		case'4':{alert('O São Paulo é Tri campeão Mundial!');
+		         document.bgColor='#EE4000'; 
+		         document.write('<center><h3>São Paulo !!!</h3>');  
+				 document.write('<h2>O primeiro jogo oficial do São Paulo Futebol Clube aconteceu em 25 de janeiro de 1936, contra a Portuguesa Santista, no Parque Antártica. Vitória por 3 x 2</h2>');
+		         document.write('<a href="sp_tit.html"> <img src="img/sp.gif"></center>');
+		
+		         break;}
+		case'5':{alert('A Portuguesa já venceu de vários, inclusive do Corinthians'); 
+		         document.bgColor='#FFD700';
+				 document.write('<center><h3>Portugesa!!!</h3>');
+				 document.write('<h2>O estádio Ulrico Mursa foi o primeiro da América Latina a ter cobertura de concreto e homenageia o engenheiro Ulrico Mursa, que doou a área onde foi construído</h2>');				 
+		         document.write('<a href="por_tit.html"> <img src="img/po.gif"></center>');
+		         break;}
+	
+	default:{alert('Este número digitado não corresponde a nehum time cadastrado');}
+	}
+</script> <center> <h1> Tecle F5 para executar novamente</h1></center>
+</body>
+</html>
